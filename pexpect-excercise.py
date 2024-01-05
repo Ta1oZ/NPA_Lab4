@@ -4,7 +4,7 @@ import pexpect
 def configure():
     prompt = "#"
     router_id = [1, 2]
-    routers_ip = ["172.31.129.3", "172.31.129.4"]
+    routers_ip = ["172.31.102.3", "172.31.102.4"]
     username = "admin"
     password = "cisco"
     commands = ["conf t", "int lo0", "ip add ", "no shut", "end"]
